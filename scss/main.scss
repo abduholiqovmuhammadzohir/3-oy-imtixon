@@ -132,6 +132,30 @@ body{
         }
 
     }
+
+    table{
+        width: 100%;
+        text-align: center;
+        margin-bottom:40px;
+        
+        .stock{
+            width:92px;
+            background-image:url(../img/svgexport-12.svg);
+            font-size: 12px;
+            color:white;
+        }
+
+        a{
+            text-decoration: none;
+            color: #6C7178;
+            transition: all 0.5s;
+            font-size: 14px;
+
+            &:hover{
+                color: black;
+            }
+        }
+    }
     
 }
 
