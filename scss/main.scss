@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+
+    .container-fluid{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        padding-left: 55px;
+        padding-right:50px;
+        padding-top: 6px;
+        padding-bottom: 10px;
+
+       
+
+        .header__contact span{
+            font-size: 12px;
+            color:#6C7178;
+            margin-left: 6px;
+            transition: all 0.5s;
+
+            &:hover{
+                color:black;
+                cursor: pointer;
+            }
+
+            img{
+                margin-top: -5px;
+            }
+        }
+    }
+
+    .header{
+        background-color:#F8F8F9;
+
+        .header__about a{
+            font-size:12px;
+            font-weight:500;
+            gap: 4px;
+            text-decoration: none;
+            margin-right:25px;
+            color: #6C7178;
+            line-height:normal;
+            transition: all 0.5s;
+
+            &:hover{
+                color: black;
+            }
+        }
+        .header__about{
+            select{
+                border: none;
+                background-color:#F8F8F9;
+                font-size:12.5px;
+                font-weight:500;
+                gap: 4px;
+                color: #6C7178;
+            }
+        }
+    }
+
+    .logo{
+        cursor: pointer;
+    }
+
+    .header__main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5px;
+        .catalog{
+            width: 120px;
+            height: 50px;
+            background-color: #D92E15;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 16px;
+            padding-right: 16px;
+            font-size: 15px;
+            color: white;
+            border-radius: 13px;
+            cursor: pointer;
+            font-weight:500;
+            margin-left:40px;
+            span{
+                margin-left:5px;
+            }
+        }
+
+        .search{
+            position: relative;
+
+            input{
+                margin-left: 40px;
+                height: 50px;
+                width:500px;
+                border-radius: 14px;
+                border: 1px solid #eaecef;
+                opacity: 0.8;
+                padding-left:20px;
+            }
+
+            .icon{
+                background-color: #D92E15;
+                position: absolute;
+                height: 44px;
+                width: 74px;
+                top:3px;
+                cursor: pointer;
+                left: 460px;
+                padding-top: 9px;
+                padding-left:25px;
+                border-radius: 12px;
+            }
+    
+        }
+
+        .footer{
+            margin-left: 51px;
+            text-align: center;
+            cursor: pointer;
+
+            span{
+                font-size: 14px;
+            }
+
+        }
+
+    }
+    
+}
+
