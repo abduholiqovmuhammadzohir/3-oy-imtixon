@@ -299,7 +299,7 @@ body .medium__new h1 {
   font-weight: 700;
   margin-left: 55px;
   color: #1D242F;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 body .medium__new .medium__block a {
   background-color: #D92E15;
@@ -313,9 +313,24 @@ body .medium__best h1 {
   font-weight: 700;
   margin-left: 55px;
   color: #1D242F;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 body .medium__best .medium__block a {
   background-color: #FF0054;
   margin-bottom: -40px;
+}
+body .medium__best .medium__block button {
+  background-color: #D92E15;
+  padding: 14px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #FFF;
+  border: none;
+  text-align: center;
+  margin-top: 10px;
+  width: 190px;
+}
+body .medium__best .medium__block button:hover {
+  background-color: #aa3725;
 }/*# sourceMappingURL=main.css.map */
