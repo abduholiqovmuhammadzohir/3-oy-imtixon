@@ -338,6 +338,38 @@ body .medium__best .medium__block button {
 body .medium__best .medium__block button:hover {
   background-color: #aa3725;
 }
-body .carusel {
-  border-radius: 20px;
+body .nootebook {
+  text-align: center;
+}
+body .nootebook .star {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+}
+body .nootebook h5 {
+  font-size: 14px;
+  color: #6C7178;
+  line-height: 150%;
+  margin-top: 12px;
+}
+body .nootebook h3 {
+  font-size: 18px;
+  font-weight: bolder;
+  margin-top: 16px;
+}
+body .nootebook h4 {
+  width: 190px;
+  border: 1px solid #d6d6d6;
+  padding: 5px;
+  padding-top: 12px;
+  margin-top: 20px;
+  color: #1D242F;
+  padding-bottom: 12px;
+}
+body .nootebook h4 span {
+  border-top-right-radius: 7px;
+  margin-left: 20px;
+  border-bottom-right-radius: 7px;
+  padding: 10px;
+  background-color: #a8aaad;
 }/*# sourceMappingURL=main.css.map */

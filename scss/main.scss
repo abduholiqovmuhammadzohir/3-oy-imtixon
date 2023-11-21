@@ -209,7 +209,7 @@ body {
             gap: 10px;
             transition: all 0.5s;
 
-            &:hover{
+            &:hover {
                 cursor: pointer;
                 background-color: #e1e1e1;
             }
@@ -226,18 +226,18 @@ body {
         }
     }
 
-    .medium{
+    .medium {
         margin-left: 55px;
         margin-top: 30px;
         margin-bottom: 40px;
 
-        h3{
+        h3 {
             font-size: 24px;
-            font-weight:700;
+            font-weight: 700;
             margin-bottom: 15px;
         }
 
-        .btn a{
+        .btn a {
             text-decoration: none;
             background-color: #F7F8F8;
             color: #6C7178;
@@ -245,172 +245,212 @@ body {
             padding: 10px;
             padding-left: 15px;
             padding-right: 15px;
-            border-radius:20px;
+            border-radius: 20px;
             margin-bottom: 50px;
-            transition:0.5s;
+            transition: 0.5s;
 
-            &:hover{
+            &:hover {
                 background-color: #eaeaea;
             }
         }
     }
 
-    .medium__card{
+    .medium__card {
         margin-left: 55px;
         margin-bottom: 40px;
 
-        a{
-            background-color:#0E7E2E;
+        a {
+            background-color: #0E7E2E;
             text-decoration: none;
             color: white;
             font-size: 12px;
-            padding:4px 12px;
+            padding: 4px 12px;
             border-radius: 5px;
         }
 
-        .card__footer{
+        .card__footer {
             display: flex;
             align-items: center;
         }
 
-        .star{
+        .star {
             display: flex;
 
-            img{
-                width:18px;
+            img {
+                width: 18px;
                 margin-right: 5px;
-                height:18px;
+                height: 18px;
             }
         }
 
-        p{
+        p {
             margin-top: 30px;
-            text-decoration:line-through;
+            text-decoration: line-through;
             font-size: 12px;
         }
 
-        h3{
+        h3 {
             font-size: 20px;
             font-weight: bolder;
             margin-top: -2px;
         }
 
-        h4{
+        h4 {
             color: #0B2B5E;
             margin-top: 6px;
             font-size: 14px;
-            border:1px solid #0B2B5E;
+            border: 1px solid #0B2B5E;
             padding-left: 12px;
             padding-top: 4px;
             padding-bottom: 4px;
-            width:150px;
-            border-radius:10px;
+            width: 150px;
+            border-radius: 10px;
         }
 
-        h5{
+        h5 {
             margin-top: 15px;
             font-size: 14px;
             font-weight: 400;
 
-            span{
+            span {
                 display: inline-block;
-                margin-top:5px;
+                margin-top: 5px;
             }
         }
 
-        .card__footer{
+        .card__footer {
             margin-top: 10px;
             gap: 10px;
 
             .magazin {
-                background-color:#D92E15;
-                padding: 14px  30px;
+                background-color: #D92E15;
+                padding: 14px 30px;
                 border-radius: 10px;
                 cursor: pointer;
                 transition: all 0.5s;
-              }
+            }
+
             .card_cen {
                 background-color: rgb(247 248 248);
                 padding: 14px;
                 border-radius: 10px;
                 cursor: pointer;
                 transition: all 0.5s;
-              }  
+            }
+
             .like {
                 background-color: rgb(247 248 248);
                 padding: 14px;
                 border-radius: 10px;
                 cursor: pointer;
                 transition: all 0.5s;
-              }
+            }
         }
     }
 
-    .medium__block{
+    .medium__block {
         display: flex;
-        margin-right:20px;
+        margin-right: 20px;
     }
 
-    .medium__new{
-        margin-top:20px;
+    .medium__new {
+        margin-top: 20px;
 
-        h1{
+        h1 {
             font-size: 24px;
-            font-weight:700;
+            font-weight: 700;
             margin-left: 55px;
             color: #1D242F;
             margin-bottom: 30px;
         }
     }
 
-    .medium__new{
-        .medium__block{
-            a{
+    .medium__new {
+        .medium__block {
+            a {
                 background-color: #D92E15;
-                margin-bottom:-40px;
+                margin-bottom: -40px;
             }
         }
     }
-    .medium__best{
-        margin-top:20px;
 
-        h1{
+    .medium__best {
+        margin-top: 20px;
+
+        h1 {
             font-size: 24px;
-            font-weight:700;
+            font-weight: 700;
             margin-left: 55px;
             color: #1D242F;
             margin-bottom: 30px;
         }
     }
 
-    .medium__best{
-        .medium__block{
-            a{
-                background-color:#FF0054;
-                margin-bottom:-40px;
+    .medium__best {
+        .medium__block {
+            a {
+                background-color: #FF0054;
+                margin-bottom: -40px;
             }
 
-            button{
+            button {
                 background-color: #D92E15;
                 padding: 14px;
-                border-radius:10px;
+                border-radius: 10px;
                 font-size: 14px;
                 font-weight: 600;
-                color:#FFF;
-                border:none;
+                color: #FFF;
+                border: none;
                 text-align: center;
                 margin-top: 10px;
                 width: 190px;
 
-                &:hover{
+                &:hover {
                     background-color: #aa3725;
                 }
             }
         }
     }
 
-    .carusel{
-        border-radius:20px;
+    .nootebook{
+        text-align: center;
+
+        .star{
+            margin-top:35px;
+            display: flex;
+            justify-content: center;
+        }
+
+        h5{
+            font-size: 14px;
+            color: #6C7178;
+            line-height:150%;
+            margin-top: 12px;
+        }
+
+        h3{
+            font-size: 18px;
+            font-weight: bolder;
+            margin-top: 16px;
+        }
+
+        h4{
+            width:190px;
+            border: 1px solid #d6d6d6;
+            padding:5px;
+            padding-top: 12px;
+            margin-top: 20px;
+            color: #1D242F;
+            padding-bottom: 12px;
+
+            span{
+                border-top-right-radius:7px;
+                margin-left: 20px;
+                border-bottom-right-radius:7px;
+                padding: 10px;
+                background-color: #a8aaad;
+            }
+        }
     }
 
 }
