@@ -76,6 +76,10 @@ body .header__main .catalog {
   cursor: pointer;
   font-weight: 500;
   margin-left: 40px;
+  transition: all 0.5s;
+}
+body .header__main .catalog:hover {
+  background-color: rgba(15, 102, 129, 0.8352941176);
 }
 body .header__main .search {
   position: relative;
@@ -100,6 +104,10 @@ body .header__main .search .icon {
   padding-top: 9px;
   padding-left: 25px;
   border-radius: 12px;
+  transition: all 0.5s;
+}
+body .header__main .search .icon:hover {
+  background-color: rgba(15, 102, 129, 0.8352941176);
 }
 body .header__main .footer {
   margin-left: 28px;
@@ -277,6 +285,9 @@ body .medium__card .card__footer .magazin {
   cursor: pointer;
   transition: all 0.5s;
 }
+body .medium__card .card__footer .magazin:hover {
+  background-color: rgba(15, 102, 129, 0.8352941176);
+}
 body .medium__card .card__footer .card_cen {
   background-color: rgb(247, 248, 248);
   padding: 14px;
@@ -284,12 +295,18 @@ body .medium__card .card__footer .card_cen {
   cursor: pointer;
   transition: all 0.5s;
 }
+body .medium__card .card__footer .card_cen:hover {
+  background-color: #D92E15;
+}
 body .medium__card .card__footer .like {
   background-color: rgb(247, 248, 248);
   padding: 14px;
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.5s;
+}
+body .medium__card .card__footer .like:hover {
+  background-color: #D92E15;
 }
 body .medium__block {
   display: flex;
@@ -305,6 +322,9 @@ body .medium__new h1 {
   color: #1D242F;
   margin-bottom: 30px;
 }
+body .medium__new h3 {
+  margin-top: 30px;
+}
 body .medium__new .medium__block a {
   background-color: #D92E15;
   margin-bottom: -40px;
@@ -318,6 +338,9 @@ body .medium__best h1 {
   margin-left: 55px;
   color: #1D242F;
   margin-bottom: 30px;
+}
+body .medium__best h3 {
+  margin-top: 30px;
 }
 body .medium__best .medium__block a {
   background-color: #FF0054;
@@ -334,9 +357,10 @@ body .medium__best .medium__block button {
   text-align: center;
   margin-top: 10px;
   width: 190px;
+  transition: all 0.5s;
 }
 body .medium__best .medium__block button:hover {
-  background-color: #aa3725;
+  background-color: #b33320;
 }
 body .nootebook {
   text-align: center;
