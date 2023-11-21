@@ -173,7 +173,11 @@ body .card__block .block {
   display: flex;
   align-items: center;
   gap: 10px;
+  transition: all 0.5s;
+}
+body .card__block .block:hover {
   cursor: pointer;
+  background-color: #e1e1e1;
 }
 body .card__block .block p {
   margin-top: 10px;
@@ -333,4 +337,7 @@ body .medium__best .medium__block button {
 }
 body .medium__best .medium__block button:hover {
   background-color: #aa3725;
+}
+body .carusel {
+  border-radius: 20px;
 }/*# sourceMappingURL=main.css.map */

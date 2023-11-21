@@ -207,8 +207,12 @@ body {
             display: flex;
             align-items: center;
             gap: 10px;
+            transition: all 0.5s;
 
-            cursor: pointer;
+            &:hover{
+                cursor: pointer;
+                background-color: #e1e1e1;
+            }
 
             p {
                 margin-top: 10px;
@@ -403,6 +407,10 @@ body {
                 }
             }
         }
+    }
+
+    .carusel{
+        border-radius:20px;
     }
 
 }
